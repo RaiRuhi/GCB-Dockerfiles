@@ -1,0 +1,3 @@
+commands:
+  - cmd: "rsem"
+    expect_text: ".*Usage:.*rsem.*"
