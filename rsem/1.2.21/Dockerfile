@@ -44,8 +44,5 @@ RUN curl -SLo ${DEST_DIR}/RSEM-${RSEM_RELEASE}.tar.gz ${RSEM_URL} && \
 ENV PATH=${DEST_DIR}/RSEM-${RSEM_RELEASE}/:$PATH
 
 # List executables provided by rsem
-<<<<<<< HEAD
+
 CMD ["find", "/opt/", "-executable", "-type", "f", "-iname", "rsem*"]
-=======
-CMD ["find", "/opt/", "-executable", "-type", "f", "-iname", "rsem*"]
->>>>>>> dd287b87925431f00754d7f27e9557e423d315c9
